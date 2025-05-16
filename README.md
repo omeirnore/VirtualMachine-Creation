@@ -13,22 +13,28 @@ This is a step-by-step tutorial that walks you through creating both Windows and
 - Windows 11 (host system)
 - Windows 10 Pro (22H2) [VM]
 - Ubuntu Server 22.04 [VM]
-  <h2>📋 Project Steps Overview</h2>
+<h2>📋 Project Steps Overview</h2>
 
 - Create a Resource Group in Azure  
 - Create a Windows Virtual Machine (inside the same Resource Group)  
 - Create a Linux Virtual Machine (inside the same Resource Group)   
 - Stop & Delete resources to manage costs
-  <h2>☁️ Step 1: Create a Resource Group in Azure</h2>
+<h2>☁️ Step 1: Create a Resource Group in Azure</h2>
 
 - Navigate to the [Azure Portal](https://portal.azure.com/) and sign in with your Microsoft account.
 
 - In the top search bar, type **"Resource Groups"** and select it from the dropdown options.
 
+  <!-- Screenshot: Azure portal with "Resource Groups" being searched -->
+  <p>
+  <img src="rg.jpg" width="750" alt="Search for Resource Groups in Azure portal" />
+</p>
+
+
 - On the Resource Groups page, click on **+ Create** to begin creating a new resource group.
 
   <!-- Screenshot: Click on Create button in Resource Groups -->
-  
+  <p><img src="images/step1-click-create-resource-group.png" width="750" alt="Create button for Resource Group" /></p>
 
 - In the **Create Resource Group** form:
   - Ensure the correct **Subscription** is selected.
@@ -49,3 +55,4 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   <p><img src="images/step1-resource-group-created.png" width="750" alt="Resource Group successfully created" /></p>
 
 > 💡 **Note:** Ensure you use the same region for all other resources (VMs, virtual networks, etc.) to maintain consistency and avoid compatibility issues.
+
