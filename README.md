@@ -138,5 +138,77 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   </p>
 
 > 💡 **FYI:** RDP (Remote Desktop Protocol) allows you to access your Windows VM just like you would a physical computer. You’ll need the public IP address, username, and password you just created.
+ <h2>🐧 Step 3: Create a Linux Virtual Machine in Azure</h2>
+
+- After deploying the Windows VM, you are automatically taken to the **Virtual Machine creation form** for your next VM. Let's now configure the Linux VM.
+
+- In the **Basics** tab:
+  - Select the same **Resource Group** used for your Windows VM (e.g., `VM-RG`)
+  - Name the virtual machine: `linux-vm`
+  - Choose the same **Region** as before (e.g., East US 2)
+  - For **Image**, select **Ubuntu Server 22.04 LTS**
+
+  <!-- Screenshot: Basics tab filled for Linux VM -->
+  <p>
+    <img src="images/lvm1.jpg" width="750" alt="Basics tab for Linux VM with Ubuntu image" />
+  </p>
+
+- Under **Size**, select:
+  - **Standard_D2s_v3** (2 vCPUs, 8 GiB memory) or a similar configuration if unavailable
+
+  <!-- Screenshot: VM size selected for Linux -->
+  <p>
+    <img src="images/lvm2.jpg" width="750" alt="Linux VM size selection" />
+  </p>
+
+- In the **Administrator Account** section:
+  - Change **Authentication type** from SSH to **Password**
+  - Set a **username** and **password**  
+    *(You can reuse the same credentials used for the Windows VM to keep things simple)*
+
+  <!-- Screenshot: Linux admin account section with password authentication selected -->
+  <p>
+    <img src="images/lvm6.jpg" width="750" alt="Linux VM admin setup with password authentication" />
+  </p>
+
+- Click **Next: Disks** and leave all options at their defaults.
+
+- Click **Next: Networking**, and configure:
+  - Select the **same Virtual Network** used by the Windows VM
+  - Leave Subnet, Public IP, and other settings as default
+  - Ensure **SSH (Port 22)** is allowed
+
+  <!-- Screenshot: Networking tab for Linux VM with SSH enabled -->
+  <p>
+    <img src="images/lvm3.jpg" width="750" alt="Linux VM networking configuration with SSH access" />
+  </p>
+
+- Click **Review + Create** and verify:
+  - VM name is `linux-vm`
+  - OS is Ubuntu 22.04
+  - SSH is enabled
+  - Region and Resource Group match the previous VM
+
+  <!-- Screenshot: Review + Create screen for Linux VM -->
+  <p>
+    <img src="images/lvm4.jpg" width="750" alt="Review and Create screen for Linux VM" />
+  </p>
+
+- Click **Create** to deploy the Linux virtual machine.
+
+- After deployment completes, you will be taken to the **VM overview** screen.
+
+  <!-- Screenshot: Linux VM deployment complete -->
+  <p>
+    <img src="images/lvm5.jpg" width="750" alt="Linux VM successfully deployed" />
+  </p>
+
+> 💡 **Tip:** You can connect to your Linux VM using SSH from your terminal using the command below:
+
+```bash
+ssh your-username@your-public-ip
+
+
+
 
 
