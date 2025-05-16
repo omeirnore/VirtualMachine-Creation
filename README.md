@@ -1,6 +1,6 @@
 <h1>Creating Windows and Linux Virtual Machines in Microsoft Azure</h1>
 
-This is a step-by-step tutorial that walks you through creating both Windows and Linux Virtual Machines (VMs) using the Microsoft Azure portal. It's designed for beginners in IT and cybersecurity to gain hands-on experience with cloud infrastructure.
+This is a step-by-step Project that walks you through creating both Windows and Linux Virtual Machines (VMs) using the Microsoft Azure portal. It's designed for beginners in IT and cybersecurity to gain hands-on experience with cloud infrastructure.
 <h2>🧰 Prerequisites</h2>
 
 - A free or paid <a href="https://azure.microsoft.com/en-us/free/">Microsoft Azure account</a>
@@ -81,7 +81,7 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   </p>
 
 - In the **Basics** tab of the Create VM form:
-  - Select the same **Resource Group** you created earlier (e.g., `vm-lab-rg`)
+  - Select the same **Resource Group** you created earlier (e.g., `VM-RG`)
   - Enter the **Virtual Machine name**: `windows-vm`
   - Choose the same **Region** as your resource group (e.g., East US 2)
   - For **Image**, select: **Windows 10 Pro, version 22H2**
@@ -202,11 +202,17 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   <p>
     <img src="images/lvm5.jpg" width="750" alt="Linux VM successfully deployed" />
   </p>
+  <h2>✅ Conclusion</h2>
 
-> 💡 **Tip:** You can connect to your Linux VM using SSH from your terminal using the command below:
+This concludes the project. We successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu in Microsoft Azure. This setup highlights the power and flexibility of cloud computing and virtualization.
 
-```bash
-ssh your-username@your-public-ip
+With just one system—running Windows 11, I now have access to two additional machines, each running a different operating system, without needing any extra hardware or physical space. This clearly demonstrates the efficiency and cost-effectiveness that Cloud Service Providers (CSPs) like Azure offer to both individuals and organizations.
+
+Don’t forget to stop (turn off) your VMs when not in use to avoid unnecessary charges.  
+Thank you for checking out this project — more coming soon! 🚀
+
+
+
 
 
 
