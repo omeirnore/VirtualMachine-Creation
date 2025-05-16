@@ -34,7 +34,8 @@ This is a step-by-step tutorial that walks you through creating both Windows and
 - On the Resource Groups page, click on **+ Create** to begin creating a new resource group.
 
   <!-- Screenshot: Click on Create button in Resource Groups -->
-  <p><img src="images/step1-click-create-resource-group.png" width="750" alt="Create button for Resource Group" /></p>
+  <img src="images/rg2.jpg" width="750" alt="Describe your image" />
+
 
 - In the **Create Resource Group** form:
   - Ensure the correct **Subscription** is selected.
