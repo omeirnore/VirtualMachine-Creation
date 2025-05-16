@@ -42,15 +42,19 @@ This is a step-by-step tutorial that walks you through creating both Windows and
 - In the **Create Resource Group** form:
   - Ensure the correct **Subscription** is selected.
   - Enter a name for your resource group (e.g., `VM-RG`).
-  - Choose a **Region** (recommended:**East US 2** - This will be selected for ALL Region options coming forward.This will save you from encountaring future headaches).
+  - Choose a **Region** (recommended: **East US 2** - This region will be selected for ALL Region options coming forward as it will save you from encountaring future headaches).
 
   <!-- Screenshot: Resource Group creation form filled out -->
-  <p><img src="images/step1-resource-group-form-filled.png" width="750" alt="Resource Group creation form filled" /></p>
+  <p>
+    <img src="images/rg3.jpg" width="750" alt="Resource Group creation form filled" />
+  </p>
 
 - After entering the required information, click **Review + Create**, then click **Create** on the next screen to deploy the resource group.
 
   <!-- Screenshot: Review + Create screen before final confirmation -->
-  <p><img src="images/step1-review-and-create.png" width="750" alt="Review + Create screen" /></p>
+  <p>
+    <img src="images/rg4.jpg" width="750" alt="Review + Create screen" />
+  </p>
 
 - Once the deployment is complete, you’ll see your newly created resource group listed on the Resource Groups dashboard.
 
