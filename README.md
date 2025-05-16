@@ -84,7 +84,7 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   - Select the same **Resource Group** you created earlier (e.g., `vm-lab-rg`)
   - Enter the **Virtual Machine name**: `windows-vm`
   - Choose the same **Region** as your resource group (e.g., East US 2)
-  - For **Image**, select: **Windows 10 Pro, version 21H2**
+  - For **Image**, select: **Windows 10 Pro, version 22H2**
 
   <!-- Screenshot: Basics tab with name, region, and image filled -->
   <p>
@@ -92,7 +92,7 @@ This is a step-by-step tutorial that walks you through creating both Windows and
   </p>
 
 - Under **Size**, select:
-  - **Standard_D2s_v5** (2 vCPUs, 8 GiB memory)
+  - **Standard_D2s_v3** (2 vCPUs, 8 GiB memory)
   - If this size is not visible, click **See all sizes** and select one with similar specs.
 
   <!-- Screenshot: VM size selection screen -->
