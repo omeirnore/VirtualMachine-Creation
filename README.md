@@ -59,7 +59,9 @@ This is a step-by-step tutorial that walks you through creating both Windows and
 - Once the deployment is complete, you’ll see your newly created resource group listed on the Resource Groups dashboard.
 
   <!-- Screenshot: Resource Group successfully created and visible -->
-  <p><img src="images/step1-resource-group-created.png" width="750" alt="Resource Group successfully created" /></p>
+  <p>
+    <img src="images/rg5.jpg" width="750" alt="Resource Group successfully created" />
+  </p>
 
 > 💡 **Note:** Ensure you use the same region for all other resources (VMs, virtual networks, etc.) to maintain consistency and avoid compatibility issues.
 
