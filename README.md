@@ -34,13 +34,15 @@ This is a step-by-step tutorial that walks you through creating both Windows and
 - On the Resource Groups page, click on **+ Create** to begin creating a new resource group.
 
   <!-- Screenshot: Click on Create button in Resource Groups -->
-  <img src="images/rg2.jpg" width="750" alt="Describe your image" />
+  <p>
+    <img src="images/rg2.jpg" width="750" alt="Describe your image" />
+  </p>
 
 
 - In the **Create Resource Group** form:
   - Ensure the correct **Subscription** is selected.
-  - Enter a name for your resource group (e.g., `vm-lab-rg`).
-  - Choose a **Region** (recommended: **East US** or **East US 2** for consistency).
+  - Enter a name for your resource group (e.g., `VM-RG`).
+  - Choose a **Region** (recommended:**East US 2** - This will be selected for ALL Region options coming forward.This will save you from encountaring future headaches).
 
   <!-- Screenshot: Resource Group creation form filled out -->
   <p><img src="images/step1-resource-group-form-filled.png" width="750" alt="Resource Group creation form filled" /></p>
