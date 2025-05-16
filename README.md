@@ -204,12 +204,12 @@ This is a step-by-step Project that walks you through creating both Windows and 
   </p>
   <h2>✅ Conclusion</h2>
 
-This concludes the project. We successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu in Microsoft Azure. This setup highlights the power and flexibility of cloud computing and virtualization.
+  This concludes the project. We successfully created a Resource Group, a Windows VM running Windows 10 Pro, and a Linux VM running Ubuntu in Microsoft Azure. This setup highlights the power and flexibility of cloud computing and virtualization.
 
-With just one system—running Windows 11, I now have access to two additional machines, each running a different operating system, without needing any extra hardware or physical space. This clearly demonstrates the efficiency and cost-effectiveness that Cloud Service Providers (CSPs) like Azure offer to both individuals and organizations.
+  With just one system—running Windows 11, I now have access to two additional machines, each running a different operating system, without needing any extra hardware or physical space. This clearly demonstrates the efficiency and cost-effectiveness that Cloud Service Providers (CSPs) like Azure offer to both individuals and organizations.
 
-Don’t forget to stop (turn off) your VMs when not in use to avoid unnecessary charges.  
-Thank you for checking out this project — more coming soon! 🚀
+  Don’t forget to stop (turn off) your VMs when not in use to avoid unnecessary charges.  
+  Thank you for checking out this project — more coming soon! 🚀
 
 
 
